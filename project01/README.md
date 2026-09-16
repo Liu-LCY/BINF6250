@@ -59,12 +59,18 @@ FUNCTION read_file(file):
 Description of the stumbling blocks the team experienced
 - Preprocessing - the header filter used a membership test rather than a prefix test. 64 lines contain "#", only 28 start with one.
 - Rarity Comparison - which at first was written inverted, returning "[]" for rare variants. It ran without error and produced a dictionary.
+- GitHub Synchronization - We encountered situations where updates failed to sync to files due to incorrect pull request settings.
 
 # Personal Reflections
-## Group Leader
-Because I am not very familiar with GitHub, setting up the repository infrastructure was a bit of a struggle for me.  I had some difficulty understanding the workflow for creating the `project01_start` bookmark branch and the `project01_PR` branch. Also, due to some missteps during the branch creation and commit process, my branch ended up being 2 commits ahead of main instead. It took me some time to solve these problems, but it gave me a much clearer understanding of how commits and branching actually work in a collaborative environment.
+## Group Leader (Congyuan Liu)
+Understanding the repository infrastructure was a bit of a struggle for me since I am not very familiar with GitHub, particularly the workflow for creating the `project01_start` bookmark branch and the `project01_PR` branch.
 
-## Other member
+-`What I learned:` I learned what the branching and commit process is. Because of a few missteps during creation, my branch ended up 2 commits ahead of main.
+
+-`Next Action:` I will spend more time reviewing git branching workflows and check my commit history to confirm the repository is correctly staged before inviting collaborators.
+
+
+## Other member (Graziano Peregrino)
 Getting used to all the github branches and the synchronize process with the Group Leader project has its learning curve for sure.
 
 -`What I learned:` I learned how important is checking the repository state before commiting being a important step on the collaborating safety through GitHub.
